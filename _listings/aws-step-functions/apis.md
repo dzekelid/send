@@ -19,11 +19,50 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Send
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/aws-step-functions/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Step Functions API - Send Task Failure
+  x-api-slug: actionsendtaskfailure-get
+  description: Used by workers to report that the task identified by the taskToken
+    failed.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
+  humanURL: https://aws.amazon.com/step-functions/
+  baseURL: :///
+  tags: Amazon Web Services, Automation, Orchestration, iPaaS, Etl, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/aws-step-functions/actionsendtaskfailure-get-openapi.md
+- name: AWS Step Functions API - Send Task Heartbeat
+  x-api-slug: actionsendtaskheartbeat-get
+  description: "Used by workers to report to the service that the task represented
+    by the specified taskToken \n    is still making progress."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
+  humanURL: https://aws.amazon.com/step-functions/
+  baseURL: :///
+  tags: Amazon Web Services, Automation, Orchestration, iPaaS, Etl, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/aws-step-functions/actionsendtaskheartbeat-get-openapi.md
+- name: AWS Step Functions API - Send Task Success
+  x-api-slug: actionsendtasksuccess-get
+  description: Used by workers to report that the task identified by the taskToken
+    completed successfully.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-step-functions.png
+  humanURL: https://aws.amazon.com/step-functions/
+  baseURL: :///
+  tags: Amazon Web Services, Automation, Orchestration, iPaaS, Etl, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/aws-step-functions/actionsendtasksuccess-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.snowball.api.gallery.streamdata.io

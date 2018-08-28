@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: SAP
 x-complete: 1
@@ -17,4 +16,26 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /callback:
+    post:
+      summary: Sends a callback message
+      description: |-
+        Upon the receipt of an event, send a response in an async way to the event framework of Manufacturing Network.
+
+        In the callback message, be sure to include the event ID. Add other information as appropriate.
+      operationId: upon-the-receipt-of-an-event-send-a-response-in-an-async-way-to-the-event-framework-of-manufacturing
+      x-api-path-slug: callback-post
+      parameters:
+      - in: body
+        name: Callback
+        description: A callback message
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Sends
+      - Callback
+      - Message

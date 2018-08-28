@@ -7,11 +7,83 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-acti
 x-kinRank: "7"
 x-alexaRank: "637591"
 tags: Send
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/actility/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ThingPark DX Core API - Downlink message sending
+  x-api-slug: devicesdevicedownlinkmessages-post
+  description: Sends a new downlink message to the device, if that device is within
+    authorized scopes. The message is queued in the LRC until the device is able to
+    retrieve it (depending on its configured class).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//core/v141/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/actility/devicesdevicedownlinkmessages-post-openapi.md
+- name: ThingPark DX Core API - Downlink message sending
+  x-api-slug: devicesdevicedownlinkmessages-post
+  description: Sends a new downlink message to the device, if that device is within
+    authorized scopes. The message is queued in the LRC until the device is able to
+    retrieve it (depending on its configured class).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//core/v141/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/actility/devicesdevicedownlinkmessages-post-openapi.md
+- name: ThingPark DX Core API - Downlink message sending
+  x-api-slug: devicesdevicedownlinkmessages-post
+  description: Sends a new downlink message to the device, if that device is within
+    authorized scopes. The message is queued in the LRC until the device is able to
+    retrieve it (depending on its configured class).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//core/v141/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/actility/devicesdevicedownlinkmessages-post-openapi.md
+- name: ThingPark DX Location API - Tracker command sending
+  x-api-slug: trackercommands-post
+  description: Sends a downlink command to a supported Abeeway tracker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//location/v110
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/actility/trackercommands-post-openapi.md
+- name: ThingPark DX Location API - Tracker command sending
+  x-api-slug: trackercommands-post
+  description: Sends a downlink command to a supported Abeeway tracker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//location/v110
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/actility/trackercommands-post-openapi.md
+- name: ThingPark DX Location API - Tracker command sending
+  x-api-slug: trackercommands-post
+  description: Sends a downlink command to a supported Abeeway tracker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//location/v110
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/actility/trackercommands-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.actility.com/blog/feed/

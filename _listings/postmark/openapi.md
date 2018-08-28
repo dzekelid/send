@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Postmark
 x-complete: 1
@@ -15,6 +14,33 @@ produces:
 consumes:
 - application/json
 paths:
+  /stats/outbound/sends:
+    get:
+      summary: Get Stats Outbound Sends
+      description: Get stats outbound sends.
+      operationId: getStatsOutboundSends
+      x-api-path-slug: statsoutboundsends-get
+      parameters:
+      - in: query
+        name: fromdate
+        description: Filter stats starting from the date specified
+      - in: query
+        name: tag
+        description: Filter by tag
+      - in: query
+        name: todate
+        description: Filter stats up to the date specified
+      - in: header
+        name: X-Postmark-Server-Token
+        description: The token associated with the Server on which this request will
+          operate
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - Outbound
+      - Sends
   /senders:
     get:
       summary: List Sender Signatures
@@ -190,4 +216,3 @@ paths:
       - Senders
       - Signatureid
       - Verifyspf
----

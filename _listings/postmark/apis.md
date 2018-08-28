@@ -8,11 +8,320 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postma
 x-kinRank: "8"
 x-alexaRank: "87545"
 tags: Send
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Postmark - Get Stats Outbound Sends
+  x-api-slug: statsoutboundsends-get
+  description: Get stats outbound sends.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/statsoutboundsends-get-openapi.md
+- name: Postmark - Get Stats Outbound Sends
+  x-api-slug: statsoutboundsends-get
+  description: Get stats outbound sends.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/statsoutboundsends-get-openapi.md
+- name: Postmark - Get Stats Outbound Sends
+  x-api-slug: statsoutboundsends-get
+  description: Get stats outbound sends.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/statsoutboundsends-get-openapi.md
+- name: Postmark Account-level - List Sender Signatures
+  x-api-slug: senders-get
+  description: List sender signatures.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senders-get-openapi.md
+- name: Postmark Account-level - Create a Sender Signature
+  x-api-slug: senders-post
+  description: Create a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senders-post-openapi.md
+- name: Postmark Account-level - Delete a Sender Signature
+  x-api-slug: senderssignatureid-delete
+  description: Delete a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-delete-openapi.md
+- name: Postmark Account-level - Get a Sender Signature
+  x-api-slug: senderssignatureid-get
+  description: Get a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-get-openapi.md
+- name: Postmark Account-level - Update a Sender Signature
+  x-api-slug: senderssignatureid-put
+  description: Update a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-put-openapi.md
+- name: Postmark Account-level - Request a new DKIM Key
+  x-api-slug: senderssignatureidrequestnewdkim-post
+  description: "Requests a new DKIM key to be created. Until the DNS entries are confirmed,
+    \nthe new values will be in the `DKIMPendingHost` and `DKIMPendingTextValue` fields.
+    \nAfter the new DKIM value is verified in DNS, the pending values will migrate
+    to \n`DKIMTextValue` and `DKIMPendingTextValue` and Postmark will begin to sign
+    emails \nwith the new DKIM key."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidrequestnewdkim-post-openapi.md
+- name: Postmark Account-level - Resend Signature Confirmation Email
+  x-api-slug: senderssignatureidresend-post
+  description: Resend signature confirmation email.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidresend-post-openapi.md
+- name: Postmark Account-level - Request DNS Verification for SPF
+  x-api-slug: senderssignatureidverifyspf-post
+  description: Request dns verification for spf.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidverifyspf-post-openapi.md
+- name: Postmark Account-level - List Sender Signatures
+  x-api-slug: senders-get
+  description: List sender signatures.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senders-get-openapi.md
+- name: Postmark Account-level - Create a Sender Signature
+  x-api-slug: senders-post
+  description: Create a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senders-post-openapi.md
+- name: Postmark Account-level - Delete a Sender Signature
+  x-api-slug: senderssignatureid-delete
+  description: Delete a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-delete-openapi.md
+- name: Postmark Account-level - Get a Sender Signature
+  x-api-slug: senderssignatureid-get
+  description: Get a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-get-openapi.md
+- name: Postmark Account-level - Update a Sender Signature
+  x-api-slug: senderssignatureid-put
+  description: Update a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-put-openapi.md
+- name: Postmark Account-level - Request a new DKIM Key
+  x-api-slug: senderssignatureidrequestnewdkim-post
+  description: "Requests a new DKIM key to be created. Until the DNS entries are confirmed,
+    \nthe new values will be in the `DKIMPendingHost` and `DKIMPendingTextValue` fields.
+    \nAfter the new DKIM value is verified in DNS, the pending values will migrate
+    to \n`DKIMTextValue` and `DKIMPendingTextValue` and Postmark will begin to sign
+    emails \nwith the new DKIM key."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidrequestnewdkim-post-openapi.md
+- name: Postmark Account-level - Resend Signature Confirmation Email
+  x-api-slug: senderssignatureidresend-post
+  description: Resend signature confirmation email.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidresend-post-openapi.md
+- name: Postmark Account-level - Request DNS Verification for SPF
+  x-api-slug: senderssignatureidverifyspf-post
+  description: Request dns verification for spf.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidverifyspf-post-openapi.md
+- name: Postmark Account-level - Request DNS Verification for SPF
+  x-api-slug: senderssignatureidverifyspf-post
+  description: Request dns verification for spf.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidverifyspf-post-openapi.md
+- name: Postmark Account-level - Resend Signature Confirmation Email
+  x-api-slug: senderssignatureidresend-post
+  description: Resend signature confirmation email.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidresend-post-openapi.md
+- name: Postmark Account-level - Request a new DKIM Key
+  x-api-slug: senderssignatureidrequestnewdkim-post
+  description: "Requests a new DKIM key to be created. Until the DNS entries are confirmed,
+    \nthe new values will be in the `DKIMPendingHost` and `DKIMPendingTextValue` fields.
+    \nAfter the new DKIM value is verified in DNS, the pending values will migrate
+    to \n`DKIMTextValue` and `DKIMPendingTextValue` and Postmark will begin to sign
+    emails \nwith the new DKIM key."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureidrequestnewdkim-post-openapi.md
+- name: Postmark Account-level - Update a Sender Signature
+  x-api-slug: senderssignatureid-put
+  description: Update a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-put-openapi.md
+- name: Postmark Account-level - Get a Sender Signature
+  x-api-slug: senderssignatureid-get
+  description: Get a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-get-openapi.md
+- name: Postmark Account-level - Delete a Sender Signature
+  x-api-slug: senderssignatureid-delete
+  description: Delete a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senderssignatureid-delete-openapi.md
+- name: Postmark Account-level - Create a Sender Signature
+  x-api-slug: senders-post
+  description: Create a sender signature.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senders-post-openapi.md
+- name: Postmark Account-level - List Sender Signatures
+  x-api-slug: senders-get
+  description: List sender signatures.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://api.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/postmark/senders-get-openapi.md
 x-common:
 - type: x--net-library
   url: http://developer.postmarkapp.com/developer-official-libs.html#dot-net

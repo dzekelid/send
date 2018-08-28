@@ -7,11 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-
 x-kinRank: "7"
 x-alexaRank: "3933231"
 tags: Send
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/nxtport/apis.md
 specificationVersion: "0.14"
 apis:
+- name: NxtPort Consignment API (live) - Returns the file with corresponding blnumbers
+    and senderID.
+  x-api-slug: nxtportdocumentblnumberagagent-get
+  description: Returns the file with corresponding blnumbers and senderid..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api.nxtport.eu//Consignment/v1
+  tags: Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/nxtport/nxtportdocumentblnumberagagent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/nxtport/nxtportdocumentblnumberagagent-get-openapi.md
+- name: NxtPort Consignment API (live) - Returns the file with corresponding blnumbers
+    and senderID.
+  x-api-slug: nxtportdocumentblnumberagagent-get
+  description: Returns the file with corresponding blnumbers and senderid..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api.nxtport.eu//Consignment/v1
+  tags: Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/nxtport/nxtportdocumentblnumberagagent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/nxtport/nxtportdocumentblnumberagagent-get-openapi.md
 - name: NxtPort Consignment API (live) - Returns the file with corresponding blnumbers
     and senderID.
   x-api-slug: nxtportdocumentblnumberagagent-get

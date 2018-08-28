@@ -7,11 +7,67 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-d
 x-kinRank: "8"
 x-alexaRank: "691"
 tags: Send
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AT&T API - Post Messaging Outbound Senderaddress Requests
+  x-api-slug: 3messagingoutboundsenderaddressrequests-post
+  description: /3/messaging/outbound/{senderAddress}/requests
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
+  humanURL: http://att.com
+  baseURL: https://api.att.com//
+  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
+    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
+    API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3messagingoutboundsenderaddressrequests-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3messagingoutboundsenderaddressrequests-post-openapi.md
+- name: AT&T API - Get Messaging Outbound Senderaddress Requestid Deliveryinfos
+  x-api-slug: 3messagingoutboundsenderaddressrequestiddeliveryinfos-get
+  description: /3/messaging/outbound/{senderAddress}/{requestId}/deliveryInfos
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
+  humanURL: http://att.com
+  baseURL: https://api.att.com//
+  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
+    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
+    API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3messagingoutboundsenderaddressrequestiddeliveryinfos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3messagingoutboundsenderaddressrequestiddeliveryinfos-get-openapi.md
+- name: AT&T API - Get SMS Outbound Requests Senderaddress Requestid Deliveryinfos
+  x-api-slug: 3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get
+  description: /3/smsmessaging/outbound/requests/{senderAddress}/{requestId}/deliveryInfos
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
+  humanURL: http://att.com
+  baseURL: https://api.att.com//
+  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
+    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
+    API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get-openapi.md
+- name: AT&T API - Post SMS Outbound Senderaddress Requests
+  x-api-slug: 3smsmessagingoutboundsenderaddressrequests-post
+  description: /3/smsmessaging/outbound/{senderAddress}/requests
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
+  humanURL: http://att.com
+  baseURL: https://api.att.com//
+  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
+    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
+    API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3smsmessagingoutboundsenderaddressrequests-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/send/master/_listings/att-dev-program/3smsmessagingoutboundsenderaddressrequests-post-openapi.md
 - name: AT&T API - Post Messaging Outbound Senderaddress Requests
   x-api-slug: 3messagingoutboundsenderaddressrequests-post
   description: /3/messaging/outbound/{senderAddress}/requests
